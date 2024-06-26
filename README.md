@@ -1,10 +1,16 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+This is just demo for the api call and custom component with typescript.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Step 1: Start the Metro Server and install node modules
+
+```bash
+# using npm
+npm install
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -36,6 +42,9 @@ yarn android
 
 ```bash
 # using npm
+cd ios
+pod install
+cd ..
 npm run ios
 
 # OR using Yarn
