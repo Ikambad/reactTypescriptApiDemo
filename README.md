@@ -1,6 +1,13 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 This is just demo for the api call and custom component with typescript.
+This demo have following functionalities
+1 React-Navigation
+2 Custom Components
+3 Navbar
+4 Api Call with useEffect hook
+5 Basecontainer
+6 Colorsettings - for setting the color in full application
 
 # Getting Started
 
